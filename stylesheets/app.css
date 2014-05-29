@@ -1,3 +1,11 @@
+/* line 1286, ../scss/_settings.scss */
+#test {
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  background-color: red;
+}
+
 /* line 260, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.2.2/";
@@ -79,9 +87,8 @@ a:hover {
 
 /* line 325, ../bower_components/foundation/scss/foundation/components/_global.scss */
 img {
-	max-width: 100%;
-	height: auto;
-	vertical-align: middle;
+  max-width: 100%;
+  height: auto;
 }
 
 /* line 327, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -3832,13 +3839,12 @@ label.error {
 
 /* line 52, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
 .inline-list {
-	margin: 0 auto 1.0625rem auto;
-	margin-left: -1.375rem;
-	margin-right: 0;
-	padding: 0;
-	list-style: none;
-	overflow: hidden;
-	vertical-align: middle;
+  margin: 0 auto 1.0625rem auto;
+  margin-left: -1.375rem;
+  margin-right: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
 }
 /* line 41, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
 .inline-list > li {
@@ -3849,8 +3855,7 @@ label.error {
 }
 /* line 46, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
 .inline-list > li > * {
-	display: block;
-	vertical-align: middle;
+  display: block;
 }
 
 /* Foundation Joyride */
