@@ -1,16 +1,10 @@
-/* line 1286, ../scss/_settings.scss */
+@charset "UTF-8";
+/* line 1288, ../scss/_settings.scss */
 #test {
   height: 100px;
   width: 100px;
   position: fixed;
   background-color: red;
-}
-
-#test2 {
-	height: 100px;
-	width: 200px;
-	background-color: blue;
-	padding-top: 100px;	
 }
 
 /* line 260, ../bower_components/foundation/scss/foundation/components/_global.scss */
