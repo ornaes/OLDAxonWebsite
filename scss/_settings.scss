@@ -39,7 +39,7 @@
 // Global
 
 // We use these to control various global styles
-// $body-bg: #fff;
+// $body-bg: #ff;
 // $body-font-color: #222;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
@@ -1277,3 +1277,21 @@
 // $range-slider-handle-round: $global-rounded;
 // $range-slider-handle-bg-hover-color: scale-color($primary-color, $lightness: -12%);
 // $range-slider-handle-cursor: pointer;
+
+
+
+
+
+
+
+
+#test {
+	height:100px;
+	width:100px;
+	position:fixed;
+	background-color:red;
+}
+
+#navbar {
+	position:fixed;
+}

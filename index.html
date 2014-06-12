@@ -3,17 +3,17 @@
 	<head>
     	<meta charset="utf-8" />
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    	<title>Foundation</title>
+    	<title>Axon</title>
 	    <link rel="stylesheet" href="stylesheets/app.css" />
 	    <script src="bower_components/modernizr/modernizr.js"></script>
 	</head>
+    
 	<body>
         
        <!-- Magellan Nav Bar -->
-    
        <div class="row">
             <div class="large-12 columns">
-                <div class="magellan-container" data-magellan-expedition="fixed">
+                <div id="navbar" class="magellan-container" data-magellan-expedition="fixed" data-options="destination_threshold:65;throttle_delay:0;">
                     <dl class="sub-nav">
                         <dd data-magellan-arrival="Project Overview"><a href="#ProjectOverview">Project Overview</a></dd>
                         <dd data-magellan-arrival="Plan of Attack"><a href="#PlanOfAttack">Plan of Attack</a></dd>
@@ -143,24 +143,24 @@
             </div>
         </footer>  
       
-      <!-- Scripts -->
-      	
+      <!-- Scripts -->   
+        <script src="js/app.js"></script>        
 		<script src="bower_components/jquery/dist/jquery.js"></script>
     	<script src="bower_components/foundation/js/foundation.js"></script>
     	<script src="bower_components/foundation/js/foundation/foundation.magellan.js"></script>
-   		
-   		<script>
-  			$(document).foundation();
-		</script>
         
-<!--        <script>
-			$(document).foundation({
-        		magellan : {
-           			active_class: 'active',
-					threshold: 0
-        		}
-    		});
-		</script>  -->      
+        <script>$(document).foundation({
+        	magellan : {
+ 				// specify the class used for active sections
+  				active_class: 'active',
+  				// how many pixels until the magellan bar sticks, 0 = auto
+  				threshold: 0,
+  				// pixels from the top of destination for it to be considered active
+  				destination_threshold: 20,
+  				// calculation throttling to increase framerate
+  				throttle_delay: 50 
+			}
+		}); </script>     
    
 	</body>
 </html>
